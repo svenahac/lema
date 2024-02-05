@@ -69,7 +69,14 @@ export default function Si() {
           <div className="mt-5 lg:mt-0 lg:w-1/2">
             <h3 className="font-bold mb-1">Kontakt</h3>
             <p className="mb-1">+386 41 356 066</p>
-            <p>lea.kopac4@gmail.com</p>
+            <p className="mb-1">lea.kopac4@gmail.com</p>
+            <a
+              className="text-btn hover:text-btnHover"
+              href="https://velikolaska.si/slo/tic"
+              target="_blank"
+            >
+              Turistično Informativni Center Velike Lašče
+            </a>
           </div>
         </div>
         <h2 className="mt-5 font-body text-3xl">Galerija Slik</h2>
