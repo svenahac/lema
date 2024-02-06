@@ -41,7 +41,15 @@ export default function Si() {
             Vas Rašica ponuja tudi bogato kulturno dediščino, saj je najbolj
             poznana kot rojstni kraj očeta slovenskega knjižnega jezika Primoža
             Trubarja. Gostje imate možnost obiskati zgodovinske znamenitosti,
-            muzej in umetniško galerijo na Trubarjevi domačiji.
+            muzej in umetniško galerijo na{" "}
+            <a
+              className="text-btn hover:text-btnHover"
+              href="https://trubarjeva-domacija.si/"
+              target="_blank"
+            >
+              Trubarjevi domačiji
+            </a>
+            .
           </p>
           <p className="mb-1 lg:mb-5">
             Prelepa narava, pestra izbira turističnih aktivnosti in dobri ljudje

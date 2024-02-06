@@ -41,7 +41,15 @@ export default function En() {
             The village of Rašica also offers a rich cultural heritage, as it is
             best known as the birthplace of Primož Trubar, the father of the
             Slovenian written language. Guests can visit historical sites, a
-            museum, and an art gallery at the Trubar homestead.
+            museum, and an art gallery at the{" "}
+            <a
+              className="text-btn hover:text-btnHover"
+              href="https://trubarjeva-domacija.si/"
+              target="_blank"
+            >
+              Trubar homestead
+            </a>
+            .
           </p>
           <p className="mb-1 lg:mb-5">
             Beautiful nature, a wide selection of tourist activities, and good
